@@ -22,15 +22,22 @@ header{
     height: 100%;
     width: 500px;
 }
+.header-nav ul{
+    list-style-type: none;
+}
+.header-nav li{
+    display: inline;
+    margin-right: 10px;
+}
 .jumbo-section{
     height: 500px;
-    background-color: aqua;
+    background-color: #b4d0e7;
     justify-content: center;
     align-items: center;
 }
 .jumbo-container{
     height: 85%;
     width: 700px;
-    background-color: azure;
-    margin-top: 5rem;
+    background-color: rgb(4, 165, 165);
+    margin-top: 4rem;
 }
