@@ -8,7 +8,7 @@ body{
 }
 header{
     height: 70px;
-    /* width: 1000px; */
+    /* width: 1500px; */
     background-color: coral;
     justify-content: space-between;
 }
@@ -20,9 +20,17 @@ header{
 .header-nav{
     background-color: blue;
     height: 100%;
-    width: 300px;
+    width: 500px;
 }
 .jumbo-section{
     height: 500px;
     background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+.jumbo-container{
+    height: 85%;
+    width: 700px;
+    background-color: azure;
+    margin-top: 5rem;
 }
