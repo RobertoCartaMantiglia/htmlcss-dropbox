@@ -16,7 +16,13 @@ header{
 .flex{
     display: flex;
 }
-
+.container{
+    width: 800px;
+    border: 1px solid black; 
+    margin: 0 auto;  
+    margin-top: 5rem; 
+    background-color: blueviolet;
+}
 .header-nav{
     background-color: blue;
     height: 100%;
@@ -39,7 +45,7 @@ header{
 }
 .jumbo-container{
     height: 85%;
-    width: 800px;
+    width: 900px;
     background-color: rgb(4, 165, 165);
     margin-top: 4.5rem;
     position: relative;
@@ -61,13 +67,7 @@ header{
     width: 55%;
 }
 /* sezione della tabella */
-.container{
-    width: 700px;
-    border: 1px solid black; 
-    margin: 0 auto;  
-    margin-top: 5rem; 
-    background-color: blueviolet;
-}
+
 .container-table-section{
     height: 1000px;   
 }
@@ -101,6 +101,7 @@ header{
 }
 
 /* terza sezione */
+
 .guys-container{
     height: 400px;
 }
@@ -114,3 +115,33 @@ header{
     height: 100%;
     background-color: blue;
 }
+.activities-container{
+    height: 800px;
+}
+.title{
+    height: 10%;
+}
+.activities-section{
+    width: 100%;
+    height: 90%;
+    background-color: darkgoldenrod;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.activities{
+    height: 47.5%;
+    width: 32%;
+    border: 1px solid blue;
+    margin-top: 1.1rem;
+}
+.half-card{
+    height: 50%;
+    width: 100%;
+}
+.img-activities{
+    background-color: pink;
+}
+.activities-description{
+    background-color: coral;
+}
+
