@@ -39,7 +39,7 @@ header{
 }
 .jumbo-container{
     height: 85%;
-    width: 700px;
+    width: 800px;
     background-color: rgb(4, 165, 165);
     margin-top: 4.5rem;
     position: relative;
@@ -60,9 +60,10 @@ header{
     height: 60%;
     width: 55%;
 }
+/* sezione della tabella */
 .section-container{
-    width: 600px;
-    height: 700px;
+    width: 700px;
+    height: 1000px;
     border: 1px solid black;
     margin: 0 auto;
     margin-top: 5rem;
@@ -70,18 +71,23 @@ header{
 }
 .title-section{
     width: 100%;
-    height:20%;
+    height: 15%;
     background-color: chartreuse;
 }
 .table-container{
     justify-content: space-between;
     width: 100%;
-    height: 80%;
+    height: 65%;
     border: 1px solid red;
 
 }
 .service-option{
-    margin:15px;
     background-color: darkgoldenrod;
-    width: 25%;
+    width: 30%;
+}
+.bottom-table{
+    margin-top: 3%;
+    width: 100%;
+    height: 18%;
+    background-color: darkgoldenrod;
 }
