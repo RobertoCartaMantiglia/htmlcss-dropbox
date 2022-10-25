@@ -15,8 +15,10 @@ header{
 footer{
     background-color: black;
     color: white;
-    height: 500px;
+    height: 600px;
     margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
 }
 .flex{
     display: flex;
@@ -177,4 +179,18 @@ footer{
 .bottom-claim{
     height: 300px;
     background-color: #b4d0e7;
+}
+/* footer */
+
+.footer-container{
+    width: 1000px;
+    height: 70%;
+    border: 1px solid white;
+    justify-content: space-between;
+}
+.column{
+    border: 1px solid white;
+    height: 70%;
+    width: 180px;
+    margin: 0.5rem;
 }
