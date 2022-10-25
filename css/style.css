@@ -33,7 +33,7 @@ ul{
 .button{
     background-color: #0061fe;
     color: white;
-    padding: 0.4rem 1rem;
+    padding: 0.5rem 1rem;
     border: none;
 }
 .container{
@@ -41,7 +41,6 @@ ul{
     border: 1px solid black; 
     margin: 0 auto;  
     margin-top: 10rem; 
-    /* background-color: rgb(204, 161, 245); */
 }
 .header-nav{
     /* height: 100%; */
@@ -61,7 +60,13 @@ ul{
     vertical-align: middle;
 }
 
-
+.main-title{
+    height: 40%;
+    width: 100%;    
+}
+.main-title h1{
+    font-size: 4.3rem;
+}
 .jumbo-section{
     height: 700px;
     background-color: #b4d0e7;
@@ -70,26 +75,30 @@ ul{
 }
 .jumbo-container{
     height: 85%;
-    width: 1000px;
-    background-color: rgb(4, 165, 165);
+    max-width: 1000px;
     margin-top: 4.5rem;
     position: relative;
 }
 .jumbo-description{
-    border: 1px solid black;
     position: absolute;
     bottom:0;
     left:0;
     height: 60%;
     width: 45%;
 }
+.jumbo-description .button{
+    margin: 25px 0;
+}
 .jumbo-img{
-    border: 1px solid black;
     position: absolute;
     bottom:0;
     right:0;
     height: 60%;
     width: 55%;
+}
+.jumbo-img img{
+    width: 700px;
+    height: 450px;
 }
 /* sezione della tabella */
 
