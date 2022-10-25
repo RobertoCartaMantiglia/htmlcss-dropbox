@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"></link> 
     <title>Dropbox</title>
 </head>
 
@@ -29,8 +30,8 @@
                     Piani e prezzi
                 </li>
             </ul>
-
-        </nav>
+        </nav>  
+        
         <nav class="header-nav h-nav-dx">
             <ul>
                 <li>
@@ -45,8 +46,7 @@
                 <li>
                     <button class="button blue-button">Inizia</button>
                 </li>
-            </ul>
-            
+            </ul> 
         </nav>
     </header>
 
@@ -75,16 +75,32 @@
 <!-- prima sezione dopo il jumbo -->
         <section class="container container-table-section">
             <article class="upper-section">
-                <h2>Trova il piano business che fa per te</h2>
-                <input type="radio">Fatturazione Mensile
-                <input type="radio">Fatturazione Annuale
+                <h2 class="paragraph-title">Trova il piano business che fa per te</h2>
+
+                <input type="radio"> Fatturazione Mensile 
+                <input type="radio" class="radio-dx"> Fatturazione Annuale        
             </article>
 
             <article class="flex table-container">
-                <div class="service-option">
+                <div class="service-column">
                     <div class="header-card">
-
+                        <i class="fa-sharp fa-solid fa-user"></i>
+                        <span>Singolo</span>
                     </div>
+                    <article class="card-content">
+                        <div>
+                            <h3>Professional</h3>
+                            <p>&euro;12.00</p>
+                            <p>/mese</p>
+                        </div>
+                        <div class="caracteristics">
+                            <p>1 utente</p>
+                            <p>5 Tb di spazio di archiviazione sicuro</p>
+                            <p>Funzionidi produttività premium e condivisione file semplice e sicura</p>
+                            <button class="button">Prova gratis per 30 giorni</button>
+                            <p>oppure <a href="#">acquista ora</a></p>
+                        </div>
+                    </article>
                 </div>
                 <div class="service-option">
                     <div class="header-card"></div>
