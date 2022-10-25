@@ -17,8 +17,12 @@ footer{
     color: white;
     height: 600px;
     margin-top: 20vh;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
+}
+ul{
+    list-style-type: none;
 }
 .flex{
     display: flex;
@@ -35,9 +39,7 @@ footer{
     height: 100%;
     width: 30%;
 }
-.header-nav ul{
-    list-style-type: none;
-}
+
 .header-nav li{
     display: inline;
     margin-right: 10px;
@@ -187,10 +189,12 @@ footer{
     height: 70%;
     border: 1px solid white;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .column{
     border: 1px solid white;
     height: 70%;
     width: 180px;
     margin: 0.5rem;
+    padding: 0.5rem;
 }
