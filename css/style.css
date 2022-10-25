@@ -5,12 +5,14 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    min-width: 1500px;
 }
+
 header{
     height: 60px;
     /* width: 100vw; */
-    background-color: coral;
     justify-content: space-between;
+    
 }
 footer{
     background-color: black;
@@ -24,8 +26,15 @@ footer{
 ul{
     list-style-type: none;
 }
+
 .flex{
     display: flex;
+}
+.button{
+    background-color: #0061fe;
+    color: white;
+    padding: 0.4rem 1rem;
+    border: none;
 }
 .container{
     max-width: 900px;
@@ -35,16 +44,23 @@ ul{
     /* background-color: rgb(204, 161, 245); */
 }
 .header-nav{
-    background-color: blue;
-    height: 100%;
-    width: 30%;
+    /* height: 100%; */
+    width: 40%;
+    padding: 1rem; 
 }
-
+.h-nav-dx{
+    text-align: end;
+}
 .header-nav li{
-    display: inline;
-    margin-right: 10px;
-
+    font-weight: 300;
 }
+.header-nav li,
+.header-nav img{
+    display: inline;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
 
 .jumbo-section{
     height: 700px;
