@@ -177,7 +177,6 @@ h3{
 
 /* terza sezione partners */
 
-
 .big-section-img{
     width: 60%;
 }
@@ -186,7 +185,6 @@ h3{
 }
 .small-section{
     width: 40%;
-    height: 100%;
     padding: 3rem;   
 }
 
@@ -200,37 +198,32 @@ h3{
     background-color: white;
 }
 
-/* attività  */
+/* sezione attività  */
 
-.activities-container{
-    height: 800px;
-}
 .title{
     height: 10%;
 }
 .activities-section{
-    width: 100%;
-    height: 90%;
-    background-color: darkgoldenrod;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .activities{
-    height: 47.5%;
-    width: 32%;
-    border: 1px solid blue;
-    margin-top: 1.1rem;
+    width: 31%;
+    margin-bottom: 2rem;
 }
 .half-card{
-    height: 50%;
     width: 100%;
 }
-.img-activities{
-    background-color: pink;
+.activities img{
+    width: 100%;
 }
 .activities-description{
-    background-color: coral;
+    margin-top: 1rem;
 }
+.activities-description h3{
+    margin: 1.2rem 0;
+}
+
 
 /* sezione sponsor  */
 
