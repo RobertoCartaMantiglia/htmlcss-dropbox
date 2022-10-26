@@ -229,10 +229,7 @@ h3{
 
 .big-container{
     margin-top: 10rem;
-    /* width: 100vw; */
-    /* height: 500px; */
-    background-color: #f5f5f5;
-    
+    background-color: #f5f5f5;   
 }
 .sponsor-square{
     flex-wrap: wrap;
@@ -270,7 +267,6 @@ h3{
     background-color: #b4d0e7;
 }
 .bottom-claim h2{
-    font-size: 2rem;
     color: #61082b;
 }
 .bottom-claim-container{
