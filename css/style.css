@@ -75,7 +75,7 @@ h3{
 }
 .paragraph-title {
     font-size: 2.3rem;
-    margin-bottom: 25px;
+    margin-bottom: 3rem;
 }
 .jumbo-section{
     height: 700px;
@@ -275,6 +275,14 @@ h3{
     align-items: center;  
 }
 
+/* domande */
+.questions li{
+    line-height: 6rem;
+    border-top: 1px solid black;
+}
+.questions li:last-child{
+    border-bottom: 1px solid black;
+}
 
 /* footer */
 
@@ -291,6 +299,12 @@ h3{
     width: 180px;
     margin: 0.5rem;
     padding: 0.5rem;
+}
+
+
+#freccia-giù{
+    font-size: 3rem;
+    margin-top: 3.5rem;
 }
 #designit{
     border: 10px solid #cfe8cb;
