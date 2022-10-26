@@ -29,6 +29,11 @@ ul{
 .flex{
     display: flex;
 }
+.header-nav{
+    /* height: 100%; */
+    /* width: 40%; */
+    padding: 1rem; 
+}
 .button{
     background-color: #0061fe;
     color: white;
@@ -41,11 +46,7 @@ ul{
     margin: 0 auto;  
     margin-top: 10rem; 
 }
-.header-nav{
-    /* height: 100%; */
-    width: 40%;
-    padding: 1rem; 
-}
+
 .h-nav-dx{
     text-align: end;
 }
@@ -88,7 +89,7 @@ ul{
     bottom:0;
     left:0;
     height: 60%;
-    width: 45%;
+    width: 40%;
     font-size: 1.1rem;
 }
 .jumbo-description .button{
@@ -99,7 +100,7 @@ ul{
     bottom:0;
     right:0;
     height: 60%;
-    width: 55%;
+    width: 60%;
 }
 .jumbo-img img{
     width: 700px;
@@ -132,12 +133,15 @@ ul{
     /* height: 18%; */
     border: 0.5px solid #e8e8ea;
 }
-
+i{
+    margin-right: 0.3rem;
+}
 .header-card{
     width: 100%;
     height: 2rem;
     border: 0.5px solid #e8e8ea;
     text-align: center;
+    padding-top: 0.2rem;
 }
 .card-content{
     padding: 1rem;
@@ -149,10 +153,14 @@ ul{
     margin-top: 3rem;
 }
 .caracteristics li{
-    margin: 0.7rem 0 0.7rem 0;
+    margin: 0.7rem 0 0.9rem 0.5rem;
 }
 .caracteristics .button{
     margin: 1.5rem 0 1.5rem 0;
+}
+
+.fa-check{
+    color: #0061fe;
 }
 
 /* terza sezione */
