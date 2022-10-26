@@ -232,22 +232,31 @@ h3{
     /* width: 100vw; */
     height: 500px;
     background-color: #f5f5f5;
-    justify-content: flex-start;
+    
 }
 .sponsor-square{
     flex-wrap: wrap;
-    width: 32vw;
-    height: 100%;
+    width: calc(100vw / 3);
+    height: calc(100vw /3);
     background-color: aqua;
     
 }
 .brand-central{
-    width: 36vw;
+    /* width: 36vw; */
 }
 .sponsor-card{
     height: 50%;
     width: 50%;
     border: 2px dotted red;
+    position: relative;
+}
+.sponsor-card img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 .bottom-claim{
     height: 300px;
