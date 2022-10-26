@@ -238,11 +238,18 @@ h3{
     flex-wrap: wrap;
     width: calc(100vw / 3);
     height: calc(100vw /3);
-    background-color: aqua;
-    
+    background-color: aqua;  
 }
-.brand-central{
-    /* width: 36vw; */
+.central-brand{
+    position: relative;
+    padding: 3rem;
+}
+.central-brand img{
+    width: 60%;
+    margin-bottom: 10vh;
+}
+.central-brand p{
+    margin-bottom: 5vh;
 }
 .sponsor-card{
     height: 50%;
