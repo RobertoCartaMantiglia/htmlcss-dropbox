@@ -293,8 +293,8 @@ h3{
     flex-wrap: wrap;
 }
 .column{
-    height: 70%;
-    width: 180px;
+    /* height: 70%; */
+    width: calc(100% /5) -1rem;
     margin: 0.5rem;
     padding: 0.5rem;
 }
@@ -303,6 +303,13 @@ h3{
 }
 .column li{
     line-height: 1.8rem;
+}
+.italiano{
+    color: #555e60;
+    width: 30%;
+}
+.italiano i{
+    color:#555e60;
 }
 
 
