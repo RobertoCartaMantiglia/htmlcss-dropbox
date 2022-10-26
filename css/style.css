@@ -25,7 +25,12 @@ footer{
 ul{
     list-style-type: none;
 }
-
+i{
+    margin-right: 0.3rem;
+}
+h3{
+    font-size: 1.5rem;
+}
 .flex{
     display: flex;
 }
@@ -130,12 +135,9 @@ ul{
 .bottom-table{
     margin-top: 5rem;
     width: 100%;
-    /* height: 18%; */
     border: 0.5px solid #e8e8ea;
 }
-i{
-    margin-right: 0.3rem;
-}
+
 .header-card{
     width: 100%;
     height: 2rem;
@@ -146,7 +148,7 @@ i{
 .card-content{
     padding: 1rem;
 }
-.card-content h3{
+h3{
     font-size: 1.5rem;
 }
 .caracteristics ul{
@@ -173,21 +175,33 @@ i{
     color: #0061fe;
 }
 
-/* terza sezione */
+/* terza sezione partners */
 
-.guys-container{
-    height: 500px;
-}
+
 .big-section-img{
-    height: 100%;
     width: 60%;
-    background-color: darkcyan;
+}
+.big-section-img img{
+    width: 100%;
 }
 .small-section{
     width: 40%;
     height: 100%;
-    background-color: blue;
+    padding: 3rem;   
 }
+
+.small-section h3,
+.small-section p{
+    margin-bottom: 2rem;
+}
+.white-button{
+    padding: 0.7rem 1rem;
+    font-size: 1.1rem;
+    background-color: white;
+}
+
+/* attività  */
+
 .activities-container{
     height: 800px;
 }
