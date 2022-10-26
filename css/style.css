@@ -287,18 +287,22 @@ h3{
 /* footer */
 
 .footer-container{
-    width: 1000px;
+    max-width: 1000px;
     height: 70%;
-    border: 1px solid white;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .column{
-    border: 1px solid white;
     height: 70%;
     width: 180px;
     margin: 0.5rem;
     padding: 0.5rem;
+}
+.column ul{
+    margin-top: 2rem;
+}
+.column li{
+    line-height: 1.8rem;
 }
 
 
