@@ -5,15 +5,18 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
-    /* min-width: 1500px; */
 }
 
 header{
-    height: 60px;
-    /* width: 100vw; */
-    justify-content: space-between;
-    
+    height: 80px;
+    /* width: 100vw;
+    position: fixed;
+    background-color: white;
+    z-index: 2; */
 }
+/* main{
+    margin-top: 40px;
+} */
 footer{
     background-color: black;
     color: white;
@@ -35,9 +38,10 @@ h3{
     display: flex;
 }
 .header-nav{
-    /* height: 100%; */
-    /* width: 40%; */
-    padding: 1rem; 
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
 }
 .button{
     background-color: #0061fe;
@@ -52,18 +56,19 @@ h3{
     margin-top: 10rem; 
 }
 
-.h-nav-dx{
-    text-align: end;
-}
 .header-nav li{
     font-weight: 300;
+    font-size: 1.1rem;
 }
 .header-nav li,
 .header-nav img{
     display: inline;
-    margin-right: 1rem;
+    margin-right: 1.3rem;
     vertical-align: middle;
 }
+
+
+  /* sezione jumbotron */
 
 .main-title{
     height: 40%;
@@ -85,7 +90,7 @@ h3{
 }
 .jumbo-container{
     height: 85%;
-    max-width: 1000px;
+    max-width: 1100px;
     margin-top: 4.5rem;
     position: relative;
 }
@@ -111,6 +116,7 @@ h3{
     width: 700px;
     height: 450px;
 }
+
 
 /* sezione della tabella */
 
@@ -179,6 +185,7 @@ h3{
     color: #0061fe;
 }
 
+
 /* terza sezione partners */
 
 .big-section-img{
@@ -201,6 +208,7 @@ h3{
     font-size: 1.1rem;
     background-color: white;
 }
+
 
 /* sezione attività  */
 
@@ -279,6 +287,7 @@ h3{
     align-items: center;  
 }
 
+
 /* domande */
 
 .questions li{
@@ -295,6 +304,7 @@ h3{
     top: 40%;
     right: 3%;
   }
+
 
 /* footer */
 
@@ -326,6 +336,7 @@ h3{
     color:#555e60;
 }
 
+   /* #id selectior*/
 
 #freccia-giù{
     font-size: 3rem;
