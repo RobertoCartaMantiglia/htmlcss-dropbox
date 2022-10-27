@@ -280,13 +280,21 @@ h3{
 }
 
 /* domande */
+
 .questions li{
     line-height: 6rem;
     border-top: 1px solid black;
+    font-size: 1.2rem;    
+    position: relative;
 }
 .questions li:last-child{
     border-bottom: 1px solid black;
 }
+.questions i{
+    position: absolute;
+    top: 40%;
+    right: 3%;
+  }
 
 /* footer */
 
@@ -310,7 +318,9 @@ h3{
 }
 .italiano{
     color: #555e60;
-    width: 30%;
+    width: 15%;
+    padding-top: 2rem;
+    border-top: 3px solid  #555e60;
 }
 .italiano i{
     color:#555e60;
